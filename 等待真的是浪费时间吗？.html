@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>等待真的是浪费时间吗？</title>
+<title>等待真的浪费时间吗？</title>
 <style>
   body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -55,13 +55,13 @@
   letter-spacing: 1px; /* 增加字母间的间距 */
   margin-right: 7px; /* 右边距 */
   font-weight: bold; /* 加粗字体 */
-  font-size: 14px; /* 较小的字体大小 */
+  font-size: 15px; /* 较小的字体大小 */
   margin-bottom: 10px; /* 与文章内容的间距 */
 }
 .time {
   letter-spacing: 1px; /* 增加字母间的间距 */
   font-family: "Helvetica Neue", Arial, sans-serif; /* 设置字体 */
-  font-size: 14px; /* 设置字体大小 */
+  font-size: 15px; /* 设置字体大小 */
   font-weight: bold; /* 加粗字体 */
   color: #555; /* 时间使用较深的颜色 */
 }
@@ -91,6 +91,16 @@
   font-size: 15px; /* 设置字体大小 */
   color: #303030;
 }
+.center-container {
+            display: flex; /* 启用Flexbox */
+            padding-left: 10px; /* 容器与左边缘空间 */
+            padding-top: 7px; /* 容器与上边缘空间 */
+        }
+        .center-button {
+            padding: 7px; /* 按钮内边距 */
+            font-size: 15px; /* 文字大小 */
+            background-color: #c0c0c0; /* 背景颜色 */
+        }
 </style>
 </head>
 <body>
@@ -122,6 +132,9 @@
      <p>感谢您的阅读，希望能给您带来亮光和生命。</p >
   </div>
 </footer>
+   <div class="center-container">
+       <button class="center-button" onclick="javascript:history.back(-1);">返回上一页分享   </button>
+   </div>
 </div>
 </body>
 </html>
