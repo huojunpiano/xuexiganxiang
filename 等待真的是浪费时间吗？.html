@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>微信公众号样式示例</title>
+<title>等待真的是浪费时间吗？</title>
 <style>
   body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -21,10 +21,15 @@
     box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* 底部阴影 */
   }
   h1 {
+    margin-top: 0;   /* 标题与上方距离 */
     text-align: center;
-    font-size: 30px; /* 标题字体大小 */
-    margin-bottom: 25px; /* 标题与下方内容距离 */
+    font-size: 27px; /* 标题字体大小 */
+    margin-bottom: 5px; /* 标题与下方内容距离 */
   }
+ .introduction-box h4 {
+  margin-top: 5px; /* 减少标题与上边框之间的距离 */
+  margin-bottom: 5px;
+}
   p {
     margin-bottom: 7px; /* 段落之间的空间 */
     text-indent: 2em; /* 首行缩进 */
@@ -36,17 +41,71 @@
     border-bottom: 1px solid; /* 创建下划线 */
     padding-bottom: 3px; /* 设置文字和下划线之间的距离 */
   }
-  img {
-    max-width: 100%;
-    height: auto;
-  }
+
+.original-tag {
+  background-color: #c0c0c0; /* 背景颜色 */
+  color: white; /* 白色字体 */
+  font-size: 12px; /* 字体大小 */
+  border-radius: 3px; /* 圆角边框 */
+  padding: 2px 4px; /* 内边距 */
+  margin-right: 7px; /* 右边距 */
+}
+.author {
+  color: #0056b3; /* 蓝色字体 */
+  letter-spacing: 1px; /* 增加字母间的间距 */
+  margin-right: 7px; /* 右边距 */
+  font-weight: bold; /* 加粗字体 */
+  font-size: 14px; /* 较小的字体大小 */
+  margin-bottom: 10px; /* 与文章内容的间距 */
+}
+.time {
+  letter-spacing: 1px; /* 增加字母间的间距 */
+  font-family: "Helvetica Neue", Arial, sans-serif; /* 设置字体 */
+  font-size: 14px; /* 设置字体大小 */
+  font-weight: bold; /* 加粗字体 */
+  color: #555; /* 时间使用较深的颜色 */
+}
+.separator {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.end-mark {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 20px;
+  color: #505050;
+}
+.introduction-box {
+  border: 1px solid #ccc; /* 设置边框颜色和宽度 */
+  padding-top: 5px; /* 设置内边距 */
+  padding-bottom: 5px; /* 设置内边距 */
+  padding-left: 15px; /* 设置内边距 */
+  padding-right: 15px; /* 设置内边距 */
+  margin-top: 30px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #f9f9f9; /* 设置背景颜色 */
+  font-size: 15px; /* 设置字体大小 */
+  color: #303030;
+}
 </style>
 </head>
 <body>
 <div class="article">
-  <h1>等待真的是浪费时间吗？</h1>
-  <p><b>【徒 1：8】但圣灵降临在你们身上，你们就必得着能力；并要在耶路撒冷、犹太全地和撒玛利亚，直到地极，作我的见证。”</b></p >
-  <p><b>【徒 1：14】这些人同着几个妇人和耶稣的母亲马利亚，并耶稣的弟兄，都同心合意地恒切祷告。</b> </p >
+  <h1>等待真的浪费时间吗？</h1>
+<div class="author-time">
+    <span class="original-tag">原创</span>
+    <span class="author">尘依</span> 
+    <span class="time">2024-03-11</span>
+  </div>
+  <hr>
+  <p style="color: #E6B800;"><b>【徒 1：8】但圣灵降临在你们身上，你们就必得着能力；并要在耶路撒冷、犹太全地和撒玛利亚，直到地极，作我的见证。”</b></p >
+  <p style="color: #E6B800;"><b>【徒 1：14】这些人同着几个妇人和耶稣的母亲马利亚，并耶稣的弟兄，都同心合意地恒切祷告。</b> </p >
+  <hr>
+  <div class="separator">✦✧✦</div>
   <p>渔夫原是无学问的小民，却能够带领三千人进入天国里。</p >
   <p>这件事需要至高者的能力，但也需要百姓的恒切祷告。而在这期间<b><u>给人的功课就是耐心等候</b></u>，直到那真正的“五旬节到了”，祂就会成就。</p >
   <p>那，我们距离个人的“五旬节”到底需要多久？不知道。就像有人问：“复兴就在这时候吗？”他说：“不是你们可以知道的。”</p >
@@ -55,6 +114,14 @@
   <p><b><u>但在至高者的眼中，“等待”是祂行事的方法，也是祂喜悦的！既然是祂喜悦的，我们为何还要“效法世界”？为何还要觉得“等待”是浪费时间？</b></u></p >
   <p>因此，向着世界的观念说不！</p >
   <p class="bold-text">等待是一种顺服，是一种确信，是一种释放，是一种力量！</p >
+  <div class="end-mark">-- 完 --</div>  
+<footer>
+  <div class="introduction-box">
+     <h4>关于作者</h4>
+     <p>祂白白赐吾生命，既已白白得到，则白白分享~写作起因在于明白“白白”的意义，一切都是祂的，祂也引导我白白的分享。</p >
+     <p>感谢您的阅读，希望能给您带来亮光和生命。</p >
+  </div>
+</footer>
 </div>
 </body>
 </html>
